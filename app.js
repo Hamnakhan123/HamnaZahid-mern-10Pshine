@@ -1,5 +1,3 @@
-// Temporary comment for PR difference
-
 const express = require('express');
 const cors = require('cors');
 const logger = require('./utils/logger');
