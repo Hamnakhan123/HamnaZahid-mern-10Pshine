@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./assets/banner.svg" width="100%" alt="Full Stack Notes App"/>
 
-## Available Scripts
+![React](https://img.shields.io/badge/React%2019-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express%205-000000?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## 📌 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A full-stack **Notes application** I built during the **10Pearls SHINE internship**. Users sign up, log in securely and create, edit and delete rich-text notes. The project followed a real team workflow: feature branches, pull requests and code reviews.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔐 **JWT authentication** with bcrypt password hashing
+- 📝 **Full CRUD for notes** through a REST API
+- ✍️ **Rich-text editor** (React Quill)
+- 🔔 **Toast notifications** and loading states
+- 🧾 **Structured logging** with Pino
+- 🧪 **API tests** with Mocha, Chai and Supertest
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+| Layer | Technologies |
+|:--|:--|
+| Frontend | React 19, React Router, Axios, React Quill, React Toastify |
+| Backend | Node.js, Express 5, JWT, bcryptjs, Pino |
+| Database | MySQL with Sequelize ORM |
+| Testing | Mocha, Chai, Supertest |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌿 Branches
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Branch | Contents |
+|:--|:--|
+| `feature/backend-complete` | Complete REST API (controllers, models, routes, middleware, tests) |
+| `feature/frontend-complete` | Complete React client (Login, Signup, Dashboard) |
+| `feature/backend-setup` | Initial Express setup |
+| `dev` | Integration branch |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔌 API Endpoints
 
-### `npm run eject`
+| Method | Endpoint | Description |
+|:--|:--|:--|
+| POST | `/api/auth/signup` | Register a new user |
+| POST | `/api/auth/login` | Log in and receive a JWT |
+| GET | `/api/notes` | Get the user's notes |
+| GET | `/api/notes/:id` | Get a single note |
+| POST | `/api/notes` | Create a note |
+| PUT | `/api/notes/:id` | Update a note |
+| DELETE | `/api/notes/:id` | Delete a note |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/Hamnakhan123/HamnaZahid-mern-10Pshine.git
+cd HamnaZahid-mern-10Pshine
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Backend
+git checkout feature/backend-complete
+npm install
+npm run dev            # needs a .env with DB and JWT settings
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Frontend
+git checkout feature/frontend-complete
+npm install
+npm start              # http://localhost:3000
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div align="center">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Built by [Hamna Zahid Khan](https://github.com/Hamnakhan123)** · Software Engineer · Lecturer · Web Developer · Event Organizer
 
-### Code Splitting
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5FA2?style=for-the-badge&logo=githubpages&logoColor=white)](https://hamnakhan123.github.io/Hamna_Portfolio/)
+[![Email](https://img.shields.io/badge/Email-hamnazahidkhan%40gmail.com-C084FC?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamnazahidkhan@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Hamnakhan123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hamnakhan123)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
