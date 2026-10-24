@@ -76,8 +76,8 @@ npm start              # http://localhost:3000
 
 **Built by [Hamna Zahid Khan](https://github.com/Hamnakhan123)** · Software Engineer · Lecturer · Web Developer · Event Organizer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5FA2?style=for-the-badge&logo=githubpages&logoColor=white)](https://hamnakhan123.github.io/Hamna_Portfolio/)
-[![Email](https://img.shields.io/badge/Email-hamnazahidkhan%40gmail.com-C084FC?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamnazahidkhan@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF6B1A?style=for-the-badge&logo=githubpages&logoColor=white)](https://hamnakhan123.github.io/Hamna_Portfolio/)
+[![Email](https://img.shields.io/badge/Email-hamnazahidkhan%40gmail.com-A78BFA?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamnazahidkhan@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Hamnakhan123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hamnakhan123)
 
 </div>
